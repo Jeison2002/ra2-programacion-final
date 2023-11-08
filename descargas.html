@@ -1,0 +1,249 @@
+<!doctype html>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link href="assets/css/bootstrap/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/style.css">
+
+</head>
+<body>
+<div class="menu-navbar">
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+            <a href="index.html"> <img src="assets/img/logo.png" alt=""></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="agentes.html">AGENTES <link ></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="descargas.html">DESCARGA</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            MAPAS
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="bind.html">Bind</a></li>
+                            <li><a class="dropdown-item" href="split.html">Split</a></li>
+                            <li><hr class="dropdown-divider"></li>
+                            <li><a class="dropdown-item" href="haven.html">Haven</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            MODOS DE JUEGO
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="competitivo.html">COMPETITIVO</a></li>
+                            <li><a class="dropdown-item" href="normal.html">NORMAL</a></li>
+                            <li><a class="dropdown-item" href="spyke.html">SPYKE RUSH</a>></li>
+                            <li><a class="dropdown-item" href="deathmatch.html">DEATHMATCH</a></li>
+                        </ul>
+                    </li>
+
+                </ul>
+                <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+</div>
+<div class="Login-y-descarga">
+    <div class="container">
+        <div class="d-flex justify-content-between">
+            <div class="div1">
+                <img href="" src="assets/img/descarga2.jpg" class="d-block w-100" alt="...">
+                <a class="icon-link" href="#">
+                    <svg class="bi" aria-hidden="true"><use xlink:href="#box-seam"></use></svg>
+                    DESCARGAR
+                </a>
+            </div>
+            <div class="div1">
+                <!-- Pills navs -->
+                <ul class="nav nav-pills nav-justified mb-3" id="ex1" role="tablist">
+                    <li class="nav-item" role="presentation">
+                        <a class="nav-link active" id="tab-login" data-mdb-toggle="pill" href="#pills-login" role="tab"
+                           aria-controls="pills-login" aria-selected="true">Login</a>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                        <a class="nav-link" id="tab-register" data-mdb-toggle="pill" href="#pills-register" role="tab"
+                           aria-controls="pills-register" aria-selected="false">Register</a>
+                    </li>
+                </ul>
+                <!-- Pills navs -->
+
+                <!-- Pills content -->
+                <div class="tab-content">
+                    <div class="tab-pane fade show active" id="pills-login" role="tabpanel" aria-labelledby="tab-login">
+                        <form>
+                            <div class="text-center mb-3">
+                                <p>Inicio de sesion:</p>
+                                <button type="button" class="btn btn-link btn-floating mx-1">
+                                    <i class="fab fa-facebook-f"></i>
+                                </button>
+
+                                <button type="button" class="btn btn-link btn-floating mx-1">
+                                    <i class="fab fa-google"></i>
+                                </button>
+
+                                <button type="button" class="btn btn-link btn-floating mx-1">
+                                    <i class="fab fa-twitter"></i>
+                                </button>
+
+                                <button type="button" class="btn btn-link btn-floating mx-1">
+                                    <i class="fab fa-github"></i>
+                                </button>
+                            </div>
+
+                            <p class="text-center">con:</p>
+
+                            <!-- Email input -->
+                            <div class="form-outline mb-4">
+                                <input type="email" id="loginName" class="form-control" />
+                                <label class="form-label" for="loginName">Correo o nombre de usuario</label>
+                            </div>
+
+                            <!-- Password input -->
+                            <div class="form-outline mb-4">
+                                <input type="password" id="loginPassword" class="form-control" />
+                                <label class="form-label" for="loginPassword">Constraseña</label>
+                            </div>
+
+                            <!-- 2 column grid layout -->
+                            <div class="row mb-4">
+                                <div class="col-md-6 d-flex justify-content-center">
+                                    <!-- Checkbox -->
+                                    <div class="form-check mb-3 mb-md-0">
+                                        <input class="form-check-input" type="checkbox" value="" id="loginCheck" checked />
+                                        <label class="form-check-label" for="loginCheck"> Recuerdame </label>
+                                    </div>
+                                </div>
+
+                                <div class="col-md-6 d-flex justify-content-center">
+                                    <!-- Simple link -->
+                                    <a href="#!">Te olvidaste de tu contraseña?</a>
+                                </div>
+                            </div>
+
+                            <!-- Submit button -->
+                            <button type="submit" class="btn btn-primary btn-block mb-4">Iniciar sesion</button>
+
+                            <!-- Register buttons -->
+                            <div class="text-center">
+                                <p>No eres miembro? <a href="#!">Registrate</a></p>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="tab-pane fade" id="pills-register" role="tabpanel" aria-labelledby="tab-register">
+                        <form>
+                            <div class="text-center mb-3">
+                                <p>Sign up with:</p>
+                                <button type="button" class="btn btn-link btn-floating mx-1">
+                                    <i class="fab fa-facebook-f"></i>
+                                </button>
+
+                                <button type="button" class="btn btn-link btn-floating mx-1">
+                                    <i class="fab fa-google"></i>
+                                </button>
+
+                                <button type="button" class="btn btn-link btn-floating mx-1">
+                                    <i class="fab fa-twitter"></i>
+                                </button>
+
+                                <button type="button" class="btn btn-link btn-floating mx-1">
+                                    <i class="fab fa-github"></i>
+                                </button>
+                            </div>
+
+                            <p class="text-center">or:</p>
+
+                            <!-- Name input -->
+                            <div class="form-outline mb-4">
+                                <input type="text" id="registerName" class="form-control" />
+                                <label class="form-label" for="registerName">Name</label>
+                            </div>
+
+                            <!-- Username input -->
+                            <div class="form-outline mb-4">
+                                <input type="text" id="registerUsername" class="form-control" />
+                                <label class="form-label" for="registerUsername">Username</label>
+                            </div>
+
+                            <!-- Email input -->
+                            <div class="form-outline mb-4">
+                                <input type="email" id="registerEmail" class="form-control" />
+                                <label class="form-label" for="registerEmail">Email</label>
+                            </div>
+
+                            <!-- Password input -->
+                            <div class="form-outline mb-4">
+                                <input type="password" id="registerPassword" class="form-control" />
+                                <label class="form-label" for="registerPassword">Password</label>
+                            </div>
+
+                            <!-- Repeat Password input -->
+                            <div class="form-outline mb-4">
+                                <input type="password" id="registerRepeatPassword" class="form-control" />
+                                <label class="form-label" for="registerRepeatPassword">Repeat password</label>
+                            </div>
+
+                            <!-- Checkbox -->
+                            <div class="form-check d-flex justify-content-center mb-4">
+                                <input class="form-check-input me-2" type="checkbox" value="" id="registerCheck" checked
+                                       aria-describedby="registerCheckHelpText" />
+                                <label class="form-check-label" for="registerCheck">
+                                    I have read and agree to the terms
+                                </label>
+                            </div>
+
+                            <!-- Submit button -->
+                            <button type="submit" class="btn btn-primary btn-block mb-3">Sign in</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <script src="assets/js/bootstrap/js/bootstrap.bundle.min.js"></script>
+        </div>
+        </div>
+    </div>
+</div>
+
+<footer class="footer">
+
+    <div class="redes">
+
+        <a href="https://www.facebook.com/latamVALORANT/"><img src="assets/img/facebook.png" alt=""></a>
+        <a href="https://twitter.com/valorantlatam"><img src="assets/img/twitter.png" alt=""></a>
+        <a href="https://www.instagram.com/valorantlatam/"><img src="assets/img/instagram.png" alt=""></a>
+
+    </div>
+
+        <div class="info">
+
+            <div class="aviso">
+                <a href="https://www.riotgames.com/es-419/privacy-notice-LATAM?_ga=2.24607858.953063639.1699128015-583314830.1693686900"><h1>AVISO DE PRIVACIDAD</h1></a>
+            </div>
+
+                <div class="terminos">
+                    <a href="https://www.riotgames.com/es-419/terms-of-service-LATAM?_ga=2.69809240.953063639.1699128015-583314830.1693686900"> <h1>TERMINOS DE SERVICIO</h1></a>
+                </div>
+
+                    <div class="PREFERENCIAS DE COOKIES">
+                        <a href="#"> <h1>PREFERENCIAS DE COOKIES</h1></a>
+                    </div>
+        </div>
+
+</footer>
+
+</body>
+</html>

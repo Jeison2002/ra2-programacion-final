@@ -1,0 +1,144 @@
+
+body{
+    margin: 0%;
+    padding: 0;
+    background-image: url("https://img.freepik.com/foto-gratis/fondo-rojo-grunge_1048-8960.jpg?w=1060&t=st=1699297948~exp=1699298548~hmac=e50f7cf4b67293959df4a2af9cd01ff16e7753faa0fd4dfa131142477cde28d6");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    color: white;
+}
+.container-fluid{ /* Fondo negro para los nombres de categorias en pagina "Agentes" */
+    background-color: #000000;
+    margin-top: -1%;
+}
+
+.menu-navbar #navbarSupportedContent > ul > li > a{
+    color: white;
+}
+
+.galeria-de-imagenes #carouselExample > img{
+    height: 50px;
+    width: 50px;
+}
+.galeria-de-imagenes .carousel{ /* Galeria imagenes "index" */
+    margin-top: -1%;
+}
+.informacion-de-juego .container > p{
+    font-size: 20px;
+}
+.footer .info > .aviso > a > h1{
+    font-size: 15px;
+}
+.footer .info > .terminos > a > h1{
+    font-size: 15px;
+}
+.footer .info > .PREFERENCIAS > a > h1{
+    font-size: 15px;
+}
+.galeria-de-imagenes section{ /* Galeria imagenes "index" */
+    display: flex;
+    width: 25%;
+    height: 20%;
+    margin-top: -1%;
+}
+.galeria-de-imagenes section img{ /* Galeria imagenes "index" */
+    width: 0px;
+    flex-grow: 1;
+    object-fit: cover;
+    opacity: .8;
+    transition: .5s ease;
+}
+.galeria-de-imagenes section img:hover{ /* Galeria imagenes "index" */
+    cursor: crosshair;
+    width: 300px;
+    opacity: 1;
+    filter: contrast(120%);
+}
+.carrousel-de-agentes .navbar-brand{
+    color: white;
+}
+
+nav{ /* Fondo de los nav */
+    background-image: url("https://img.freepik.com/foto-gratis/fondo-rojo-grunge_1048-8960.jpg?w=1060&t=st=1699297948~exp=1699298548~hmac=e50f7cf4b67293959df4a2af9cd01ff16e7753faa0fd4dfa131142477cde28d6");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+}
+.div1{ /* Fondo y personalizacion de letra en el Login-y-descarga */
+    background-image: url("https://img.freepik.com/foto-gratis/fondo-rojo-grunge_1048-8960.jpg?w=1060&t=st=1699297948~exp=1699298548~hmac=e50f7cf4b67293959df4a2af9cd01ff16e7753faa0fd4dfa131142477cde28d6");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    color: white;
+    font-family: "Comic Sans MS";
+}
+.icon-link{ /* Personalizacion de la letra en "DESCARGAR" */
+    margin-left: 35%;
+    color: #000000;
+    font-family: "Comic Sans MS";
+    text-shadow: 1px  0px 0px white,
+    0px  1px 0px white,
+    -1px  0px 0px white,
+    0px -1px 0px white;
+    padding: 3%;
+    font-size: 30px;
+}
+ul li{ /* Tamaño de letra para las listas hechas en pagina de Competitivo */
+    font-size: 20px;
+}
+.footer {
+    background-color: #000000;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+.Explicacion-de-mapa img{ /* responsive para fotos de las distintas paginas en los "Mapas" */
+    max-width: 100%;
+    height: auto;
+}
+.galeria-de-imagenes .video-container{ /* responsive para video del "index" */
+    max-width: 100%;
+}
+.galeria-de-imagenes @media (max-width: 767px) { /* responsive para video del "index" */
+    .video-container iframe {
+        width: 100%;
+        height: auto;
+    }
+}
+.Explicacion-de-mapa .responsive{
+    width: 100%;
+}
+.list-group-item{ /* Fondo de la lista en las paginas de "Normal" y "Competitivo" */
+    background-color: darkred;
+}
+.card-body{ /* Fondo de la lista en pagina "Normal" */
+    background-color: #a52834;
+}
+.card{ /* Color de letras en la card de los ASPECTOS FUNDAMENTALES pagina "Normal" */
+    color: white;
+}
+.list-group-item{ /* Color letras de la lista de rangos de "Competitivo" */
+    color: white;
+}
+.footer a { /* Color de las letras del footer */
+    color: #ff6f61;
+    text-decoration: none;
+    margin: 0 10px;
+}
+.footer a:hover { /* color que toman las letras al pasar el cursor por las letras del footer */
+    color: #ff9f80;
+}
+.redes { /* Personalizacion en letras del footer */
+    margin-top: 10px;
+    font-size: 24px;
+    margin: 0 10px;
+    margin-bottom: 5px;
+}
+
+
+
+
